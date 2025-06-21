@@ -6,9 +6,10 @@ This project implements an 8-bit binary counter on the RealDigital Xilinx Blackb
 
 ## 📦 Project Structure
 
-|-- top.sv
-| |-- clk_divider.sv
-| |-- LED_counter.sv
+- top.sv
+  - clk_divider.sv
+  - LED_counter.sv
+  
 ---
 
 ## 🔧 Features
