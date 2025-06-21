@@ -2,7 +2,6 @@
 
 This project implements an 8-bit binary counter on the RealDigital Xilinx Blackboard FPGA board. The design uses a clock divider module to slow the 100 MHz base clock to approximately the desired clock rate (1 Hz shown in the project), which then drives a synchronous counter. The counter output is displayed on the 8 on-board LEDs, allowing the counter to be visual.
 
---
 
 ## 📦 Project Structure
 
@@ -10,7 +9,6 @@ This project implements an 8-bit binary counter on the RealDigital Xilinx Blackb
  - clk_divider.sv
  - LED_counter.sv
 
---
 
 ## 🔧 Features
 
@@ -20,7 +18,6 @@ This project implements an 8-bit binary counter on the RealDigital Xilinx Blackb
 - Modular Verilog design with reusable components  
 - Synthesizable on Xilinx Vivado for RealDigital Blackboard
 
----
 
 ## 💡 How It Works
 
@@ -33,20 +30,17 @@ A synchronous 8-bit binary up-counter. Increments on every rising edge of the di
 ### `top.v`  
 Connects the on-board 100 MHz clock and LEDs to the internal logic modules. Maps ports to physical pins via the constraint file.
 
----
 
 ## 🧪 Simulation
 
 You can simulate the counter logic with a testbench to verify correctness before synthesis.
 
----
 
 ## 🛠 Tools Used
 
 - Xilinx Vivado (2020.2 or later)
 - RealDigital Xilinx Blackboard FPGA
 
----
 
 ## 🚀 How to Run
 
@@ -55,13 +49,11 @@ You can simulate the counter logic with a testbench to verify correctness before
 3. Apply pin constraints from `blackboard.xdc`.
 4. Synthesize, implement, and program to the board.
 
----
 
 ## 📜 License
 
 MIT
 
----
 
 ## 📫 Author
 
